@@ -2,16 +2,43 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <title>Cài Đặt Ứng Dụng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cài đặt Ứng dụng iOS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+        background-color: #f5f5f7;
+      }
+      .btn-install {
+        background-color: #4b49ac;
+        color: white;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+      }
+      .btn-install:hover {
+        background-color: #3f3e8f;
+      }
+    </style>
   </head>
   <body>
-    <h1>Tải Ứng Dụng Của Bạn</h1>
+    <h2>Cài đặt Ứng dụng Trực tiếp</h2>
+    <p>
+      Bấm vào nút bên dưới để cài đặt ứng dụng ESign lên thiết bị iOS của bạn.
+    </p>
+
     <a
-      href="itms-services://?action=download-manifest&url=https://githubusercontent.com"
+      href="itms-services://?action=download-manifest&url=https://githubusercontent.com/apps/manifest.plist"
+      class="btn-install"
     >
-      <button style="padding: 10px 20px; font-size: 16px">
-        Cài đặt Youtube
-      </button>
+      CÀI ĐẶT
     </a>
+    <h2>Tôi là Trung IOS</h2>
   </body>
 </html>
