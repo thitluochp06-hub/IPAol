@@ -12,7 +12,7 @@
                     <string>software-package</string>
                     <key>url</key>
                     <!-- link ipa đã dơ lên -->
-                   <string>https://githubusercontent.com</string>
+                   <string>https://githubusercontent.com/apps/manifest.plist</string>
                 </dict>
             </array>
             <key>metadata</key>
