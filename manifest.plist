@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>items</key>
@@ -11,21 +11,19 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <!-- link ipa đã dơ lên -->
-                   <string>https://githubusercontent.com/apps/manifest.plist</string>
+                    <string>https://github.com/thitluochp06-hub/IPAol/releases/download/v1.0/DiuTube_21.08.3_1781413915.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
                 <string>com.pangu.esign</string>
-                <key>bundle-versionTrungIOS</key>
+                <key>bundle-version</key>
                 <string>1.0.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <!-- tên nút khi tải -->
-                <string>Cài đặt Youtube</string>
+                <string>DiuTube</string>
             </dict>
         </dict>
     </array>
